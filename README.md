@@ -16,8 +16,6 @@ First time:
         npm install -g yeoman
 
 3) This will tell you any dependencies you're missing.
-   Detailed install instructions for Yeoman:
-
 
         curl -L get.yeoman.io | bash
 
@@ -26,6 +24,8 @@ First time:
   Note: Yeoman requires Node 0.8.x currently.
   http://nodejs.org/ & install.
 
+  Almost too detailed install instructions for Yeoman (that I didn't need or use.):
+  https://github.com/yeoman/yeoman/wiki/Manual-Install
 
 4) Once all is installed, you can start the server with:
 
