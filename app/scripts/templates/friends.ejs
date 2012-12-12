@@ -1,0 +1,10 @@
+<h2> Friends </h2>
+<ul>
+  <% _(friends).each(function(friend){ %>
+    <li>
+      <strong><%= friend.name %></strong>,
+      $<%= friend.balance %>.00
+    </li>
+  <% }) %>
+
+</ul>

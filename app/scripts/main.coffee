@@ -3,10 +3,9 @@ window.iou =
   Models: {},
   Collections: {},
   Views: {},
-  Routers: {},
-  init: ->
-    console.log('Hello from Backbone!');
+  Routers: {}
 
 
 $(document).ready ->
-  iou.init();
+  app         = new iou.Routers.ApplicationRouter()
+  Backbone.history.start()

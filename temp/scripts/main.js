@@ -4,14 +4,13 @@
     Models: {},
     Collections: {},
     Views: {},
-    Routers: {},
-    init: function() {
-      return console.log('Hello from Backbone!');
-    }
+    Routers: {}
   };
 
   $(document).ready(function() {
-    return iou.init();
+    var app;
+    app = new iou.Routers.ApplicationRouter();
+    return Backbone.history.start();
   });
 
 }).call(this);
